@@ -8,10 +8,12 @@ import HobbyLinks from './components/HobbyLinks.js';
 function App() {
   return (
     <div className="App">
-      <MovieList />
       <ChoresList />
-      <BookList />
-      <HobbyLinks />
+      <div className = "similarComponents">
+        <MovieList />
+        <BookList />
+        <HobbyLinks />
+      </div>
     </div>
   );
 }
