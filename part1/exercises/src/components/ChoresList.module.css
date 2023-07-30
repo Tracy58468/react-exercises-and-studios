@@ -1,9 +1,13 @@
 .choresText {
    color: red;
    font-family: 'Trebuchet MS';
+   font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   color: green;
    font-family:'Franklin Gothic Medium';
+   text-decoration-line: underline;
+   text-align: left;
 }
