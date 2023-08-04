@@ -1,17 +1,6 @@
 import data from './../data.json';
 import {useState} from 'react';
 
-const listItem = data.map(data =>
-  <div>
-    <h2>Fun Facts</h2>
-    <img src = {data.someRandomImage} alt = {data.alt} className = "img"/>
-    <ul>
-      <li>{data.fakeKey1}</li>
-      <li>{data.fakeKey2}</li>
-    </ul>
-  </div>
-);
-
 function MyProjects() {
   const [index, setIndex] = useState(0);
 
@@ -22,14 +11,17 @@ function MyProjects() {
       setIndex(0);
     }
   }
+
+  let projects = data.projects;
+  let project = projects[index];
   
   return(
-    <>
+    <div>
       <button onClick = {handleClick}>Next</button>
-      <ul>
-        {listItem}
-      </ul>
-    </>
+      <h2>{project.fakeKey1}</h2>
+      <h3>{project.fakeKey2}</h3>
+      <img src = {project.someRandomImage} alt = {project.alt} className = "img"/>
+    </div>
   );
 };
 

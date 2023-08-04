@@ -1,4 +1,4 @@
-[
+{"projects": [
   {
     "fakeKey1": "This is a fake value for object 1.",
     "fakeKey2": "This is value 2 for object 1.",
@@ -29,4 +29,4 @@
     "someRandomImage": "https://images.pexels.com/photos/17815159/pexels-photo-17815159/free-photo-of-gruner-salamander-am-baum-bokeh.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load",
     "alt": "Green lizard on a tree trunk"
   }
-]
+]}
