@@ -1,0 +1,32 @@
+[
+  {
+    "fakeKey1": "This is a fake value for object 1.",
+    "fakeKey2": "This is value 2 for object 1.",
+    "someRandomImage": "https://images.pexels.com/photos/17809424/pexels-photo-17809424/free-photo-of-the-pillars-of-creation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "The Pillars of Creation"
+  },
+  {
+    "fakeKey1": "This is a fake value for object 2.",
+    "fakeKey2": "This is value 2 for object 2.",
+    "someRandomImage": "https://images.pexels.com/photos/17593738/pexels-photo-17593738/free-photo-of-a-person-on-a-bicycle-at-ark-of-bukhara.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "Free A Person on a Bicycle at Ark of Bukhara Stock Photo"
+  },
+  {
+    "fakeKey1": "This is a fake value for object 3.",
+    "fakeKey2": "This is value 2 for object 3.",
+    "someRandomImage": "https://images.pexels.com/photos/15549329/pexels-photo-15549329/free-photo-of-fountain-in-front-of-a-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "Free Fountain in front of a Building Stock Photo"
+  },
+  {
+    "fakeKey1": "This is a fake value for object 4.",
+    "fakeKey2": "This is value 2 for object 4.",
+    "someRandomImage": "https://images.pexels.com/photos/17838489/pexels-photo-17838489.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load",
+    "alt": "White horse eating grass"
+  },
+  {
+    "fakeKey1": "This is a fake value for object 5.",
+    "fakeKey2": "This is value 2 for object 5.",
+    "someRandomImage": "https://images.pexels.com/photos/17815159/pexels-photo-17815159/free-photo-of-gruner-salamander-am-baum-bokeh.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load",
+    "alt": "Green lizard on a tree trunk"
+  }
+]
