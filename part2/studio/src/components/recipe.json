@@ -1,17 +1,17 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "name": "Crepes",
+     "author": "Alton Brown",
+     "description": "Ummy nummy crepes",
+     "website": "https://www.foodnetwork.com/recipes/alton-brown/crepes-recipe-1911037",
+     "recipeImage": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/7/26/2/EA1E09_crepes_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1382545812754.jpeg",
+     "authorImage": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/talent/alton-brown/FN-TalentAvatar-Alton-Brown.jpg.rend.hgtvcom.126.126.suffix/1532979092729.jpeg",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+       "2 large eggs",
+       "3/4 c milk",
+       "1/2 c water",
+       "1 c flour",
+       "3 T melted butter"
      ]
    }
  ]

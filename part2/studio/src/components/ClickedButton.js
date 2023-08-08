@@ -1,5 +1,14 @@
+import "./styling.css";
+
 function ClickedButton() {
-  return;
+  function handleClick() {
+    alert("Button clicked");
+  }
+  return (
+    <button id="clickedButton" onClick={handleClick}>
+      Saved
+    </button>
+  );
 }
 
 export default ClickedButton;
