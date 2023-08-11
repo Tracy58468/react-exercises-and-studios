@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.foodnetwork.com/recipes/alton-brown/";
+   let authorPhoto = "https://food.fnr.sndimg.com/content/dam/images/food/editorial/talent/alton-brown/FN-TalentAvatar-Alton-Brown.jpg.rend.hgtvcom.126.126.suffix/1532979092729.jpeg";
+   let authorName = "Alton Brown";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["2 large eggs", "3/4 cup milk", "1/2 cup water", "1 cup flour", "3 tablespoons melted butter"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Crepes</h1>
+            <p>Ummy Nummy Crepes!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/7/26/2/EA1E09_crepes_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1382545812754.jpeg" width = "400" alt="Crepes" className="imageUpdates"/>
    );
 }
 
@@ -57,6 +57,7 @@ export default function RecipeDisplay () {
          <RecipePhoto />
          <div>
             <RecipeDescription />
+
          </div>
       </div>
    );
